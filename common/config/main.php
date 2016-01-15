@@ -11,6 +11,7 @@ return [
             'username' => 'wzjg520',
             'password' => 'ABC201314',
             'charset' => 'utf-8',
+            'tablePrefix' => 'webapp_',
         ],
     ],
 ];

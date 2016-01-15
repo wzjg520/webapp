@@ -6,7 +6,6 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use common\models\LoginForm;
 use yii\filters\VerbFilter;
-use yii\helpers\Url;
 
 /**
  * Site controller
@@ -61,8 +60,6 @@ class SiteController extends Controller
 
     public function actionLogin()
     {
-
-
         if (!\Yii::$app->user->isGuest) {
             return $this->goHome();
         }
